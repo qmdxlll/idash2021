@@ -21,10 +21,13 @@ We are a team from Wuhan University of technology, Wuhan, China.This project is 
 put the hold-out dataset into the file folder.
 
 docker build -t idash .
+
 docker run -it idash /bin/bash
 
 python3.8 preat.py #Get the test.txt file
+
 g++ idash2021.cpp -p -main -ltfhe-spqlios-fma
+
 ./main
 
 ## Algorithm
