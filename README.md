@@ -36,7 +36,7 @@ A strain containing 29000 base pairs is transformed into a 7500 dimensional vect
 >B.1.427_5729AGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCT....
 （AAAA->1，AAAC->2,…,TTTT->256,other->0, If the dimension is less than 7500, supplement -1）
 
-so,around(29000)*2000 --> 7500*2000
+so,around(29000)x2000 --> 7500x2000
 
 version2:
 If we are allowed to do excessive operations on preprocessing,we can also make statistics on the 7500 dimensional data obtained.
@@ -44,7 +44,7 @@ If we are allowed to do excessive operations on preprocessing,we can also make s
 >B.1.427_5729AGATCTGTTCTCTAAACGAACTTTAAAATCTGTGTGGCT....
 （AAAA->0，AAAC->1,…,TTTT->255，count the frequency of each gene string，each strain generated a 256 dimensional data）
 
-around(29000)*2000 --> 256*2000
+around(29000)x2000 --> 256x2000
 
 ## Inference
 
