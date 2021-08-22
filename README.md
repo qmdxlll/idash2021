@@ -56,8 +56,3 @@ On the ciphertext side, we use packaging technology，which greatly reduces the 
 ## TFHE
 If you choose to run our program on a physical machine,please install the tfhe library according to the following link.
 https://tfhe.github.io/tfhe/coding.html
-
-
-
-
-
